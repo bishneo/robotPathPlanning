@@ -4,34 +4,28 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 import sys
-# from numpy import linalg as LA
-import csv
 
 from Node import Node
 from algorithms.AStar import aStar
-from algorithms.Prm2 import prm2
+from algorithms.Prm import prm
 from algorithms.Rrt import rrt
 
 
 def doPathPlanning(gridraw, startcord, goalcord, planType, resolution=1):
     edgesize = int(len(gridraw) / resolution)
-    emptyNode = Node(0, (0, 0), resolution)
     gridNode = np.empty((edgesize, edgesize), Node)
-
-    startx, starty = startcord
-    goalx, goaly = goalcord
-    start = Node(0, (int(startcord[0] / resolution), int(startcord[1] / resolution)), resolution,
-                 'start')
+    start = Node((int(startcord[0] / resolution), int(startcord[1] / resolution)),
+                 value=0, edgeLength=resolution, descr='start')
     start.valuCalc(gridraw)
-    goal = Node(0, (int(goalcord[0] / resolution), int(goalcord[1] / resolution)), resolution,
-                'goal')
+    goal = Node((int(goalcord[0] / resolution), int(goalcord[1] / resolution)),
+                value=0, edgeLength=resolution, descr='goal')
     goal.valuCalc(gridraw)
     if start.value != 0 or goal.value != 0:
         raise Exception('Goal or start are in occupied cells')
 
     for x in range(edgesize):
         for y in range(edgesize):
-            gridNode[x, y] = Node(0, (x, y), resolution)
+            gridNode[x, y] = Node((x, y), value=0, edgeLength=resolution)
             gridNode[x, y].valuCalc(gridraw)
 
     gridNode[start.point[0], start.point[1]] = start
@@ -43,7 +37,7 @@ def planSelector(start, goal, gridNode, planType):
     if planType == 'aStar':
         return aStar(start, goal, gridNode)
     elif planType == 'prm':
-        return prm2(start, goal, gridNode)
+        return prm(start, goal, gridNode)
     elif planType == 'rrt':
         return rrt(start, goal, gridNode)
 
@@ -121,7 +115,7 @@ if sys.argv[1] == 'aStar':
 elif sys.argv[1] == 'prm':
     path = doPathPlanning(sqGrid, start, goal, sys.argv[1], 16)
 """
-path = doPathPlanning(sqGrid, start, goal, sys.argv[1], 16)
+path = doPathPlanning(sqGrid, start, goal, sys.argv[1], AllConstants.RESOLUTION)
 pathNoScale = list()
 pathNoScale.append(start)
 for node in path:

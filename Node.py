@@ -1,10 +1,15 @@
 import numpy as np
 
+import AllConstants
+
 
 class Node(object):
-    def __init__(self, value, point, edgeLength=1, descr='Node'):
+    def __init__(self, point, value=0.0, cost=0.0, pId=-1, edgeLength=AllConstants.RESOLUTION,
+                 descr='Node'):
         self.value = value
         self.point = point
+        self.cost = cost
+        self.pId = pId
         self.edgeLength = edgeLength
         self.descr = descr
         self.parent = None

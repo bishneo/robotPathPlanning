@@ -1,8 +1,10 @@
 import copy
 import math
 import random
-import matplotlib.pyplot as plt
 import numpy as np
+
+import AllConstants
+from Node import Node
 
 
 class RRT():
@@ -10,147 +12,105 @@ class RRT():
     Class for RRT Planning
     """
 
-    def __init__(self, start, goal, grid, expandDis=1.0, goalSampleRate=5, maxIter=500):
+    def __init__(self, start, goal, grid, expandDistance=1.0, goalSampleRate=5):
         """
-        Setting Parameter
-        start:Start Position [x,y]
-        goal:Goal Position [x,y]
-        obstacleList:obstacle Positions [[x,y,size],...]
-        randArea:Ramdom Samping Area [min,max]
+        start node
+        goal node
+        grid world
+        distance to expand by
+        number of times goal is selected as sample
         """
-        self.start = Node(start.point[0], start.point[1], start.value)
-        self.goal = Node(goal.point[0], goal.point[1], goal.value)
+        self.start = start
+        self.goal = goal
         self.maxX = len(grid) - 1
         self.maxY = len(grid[0]) - 1
         self.grid = grid
-        self.expandDis = expandDis
+        self.expandDistance = expandDistance
         self.goalSampleRate = goalSampleRate
-        self.maxIter = maxIter
 
-    def Planning(self, animation=True):
-        """
-        Pathplanning
-        animation: flag for animation on or off
-        """
-
+    def rrtPlanning(self):
+        count = 0
+        found = False
         self.nodeList = [self.start]
         while True:
-            # Random Sampling
+            # Sample randomly
             if random.randint(0, 100) > self.goalSampleRate:
                 rndX = np.random.choice(self.maxX)
                 rndY = np.random.choice(self.maxY)
                 tempNode = self.grid[int(round(rndX))][int(round(rndY))]
-                rndNode = Node(tempNode.point[0], tempNode.point[1], tempNode.value)
+                rndNode = Node(tempNode.point, value=tempNode.value)
             else:
                 rndNode = self.goal
 
             # Find nearest node
-            nind = self.GetNearestListIndex(self.nodeList, rndNode)
-            # print(nind)
+            nind = self.getIndexOfNearestNode(self.nodeList, rndNode)
 
-            # expand tree
+            # calculate angle to sample node.
             nearestNode = self.nodeList[nind]
-            theta = math.atan2(rndNode.y - nearestNode.y, rndNode.x - nearestNode.x)
+            theta = math.atan2(rndNode.point[1] - nearestNode.point[1],
+                               rndNode.point[0] - nearestNode.point[0])
 
             newNode = copy.deepcopy(nearestNode)
-            newNode.x += self.expandDis * math.cos(theta)
-            newNode.y += self.expandDis * math.sin(theta)
 
-            newNode.x = int(round(newNode.x))
-            newNode.y = int(round(newNode.y))
-            tmp = self.grid[newNode.x][newNode.y]
+            # Calculate coordinates of the next node.
+            p = list(newNode.point)
+            p[0] += self.expandDistance * math.cos(theta)
+            p[1] += self.expandDistance * math.sin(theta)
+
+            p[0] = int(round(p[0]))
+            p[1] = int(round(p[1]))
+            tmp = self.grid[p[0]][p[1]]
 
             newNode.value = tmp.value
-            newNode.point = (newNode.x, newNode.y)
+            newNode.point = tuple(p)
 
             newNode.parent = nind
 
             if self.isCollision(newNode):
                 continue
 
-            # check goal
-            dx = newNode.x - self.goal.x
-            dy = newNode.y - self.goal.y
+            # calculate distance from goal
+            dx = newNode.point[0] - self.goal.point[0]
+            dy = newNode.point[1] - self.goal.point[1]
             d = math.sqrt(dx * dx + dy * dy)
 
             self.nodeList.append(newNode)
-            #print("nNodelist:", len(self.nodeList))
 
-            if d <= self.expandDis:
-                print("Goal!!")
+            if d <= self.expandDistance:
+                found = True
+                break
+            if count > AllConstants.LIMIT:
+                found = False
                 break
 
-            if animation:
-                self.DrawGraph((rndNode.x, rndNode.y))
+            count += 1
 
         path = [self.goal]
-        lastIndex = len(self.nodeList) - 1
-        while self.nodeList[lastIndex].parent is not None:
-            node = self.nodeList[lastIndex]
-            path.append(node)
-            lastIndex = node.parent
+        if found:
+            print ("Path found!")
+            lastIndex = len(self.nodeList) - 1
+            while self.nodeList[lastIndex].parent is not None:
+                node = self.nodeList[lastIndex]
+                path.append(node)
+                lastIndex = node.parent
+        else:
+            print ("Path not found!")
         path.append(self.start)
 
         return path
 
-    def DrawGraph(self, rnd=None):  # pragma: no cover
-        """
-        Draw Graph
-        """
-        plt.clf()
-        if rnd is not None:
-            plt.plot(rnd[0], rnd[1], "^k")
-        for node in self.nodeList:
-            if node.parent is not None:
-                plt.plot([node.x, self.nodeList[node.parent].x], [
-                    node.y, self.nodeList[node.parent].y], "-g")
-
-        for (ox, oy, size) in self.obstacleList:
-            plt.plot(ox, oy, "ok", ms=30 * size)
-
-        plt.plot(self.start.x, self.start.y, "xr")
-        plt.plot(self.end.x, self.end.y, "xr")
-        plt.axis([-2, 15, -2, 15])
-        plt.grid(True)
-        plt.pause(0.01)
-
-    def GetNearestListIndex(self, nodeList, rnd):
-        dlist = [(node.x - rnd.x) ** 2 + (node.y - rnd.y)
-                 ** 2 for node in nodeList]
-        minind = dlist.index(min(dlist))
+    def getIndexOfNearestNode(self, nodeList, rnd):
+        distList = [(node.point[0] - rnd.point[0]) ** 2 + (node.point[1] - rnd.point[1])
+                    ** 2 for node in nodeList]
+        minind = distList.index(min(distList))
         return minind
 
     def isCollision(self, node):
-
         return node.value != 0
 
 
-class Node():
-    """
-    RRT Node
-    """
-
-    def __init__(self, x, y, value):
-        self.x = x
-        self.y = y
-        self.value = value
-        self.point = (x, y)
-        self.parent = None
-        self.edgeLength = 16
-
-
-def getObstacleList(grid):
-    obstacleList = []
-    for i in range(len(grid)):
-        for j in range(len(grid[0])):
-            if grid[i][j].value != 0:
-                obstacleList.append(grid[i][j])
-    return obstacleList
-
-
 def rrt(start, goal, grid):
-    obstacleList = getObstacleList(grid)
     rrt = RRT(start=start, goal=goal, grid=grid)
-    path = rrt.Planning(animation=False)
+    path = rrt.rrtPlanning()
 
     return path
