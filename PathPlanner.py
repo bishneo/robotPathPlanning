@@ -115,23 +115,43 @@ if sys.argv[1] == 'aStar':
 elif sys.argv[1] == 'prm':
     path = doPathPlanning(sqGrid, start, goal, sys.argv[1], 16)
 """
-path = doPathPlanning(sqGrid, start, goal, sys.argv[1], AllConstants.RESOLUTION)
-pathNoScale = list()
-pathNoScale.append(start)
-for node in path:
-    x, y = node.point
-    res = node.edgeLength
+sum_ = 0
+found = False
+failure = 0
+for j in range(20):
+    importGrid = np.copy(obsScaleGrid)
+    path = doPathPlanning(sqGrid, start, goal, sys.argv[1], AllConstants.RESOLUTION)
+    if len(path) < 2:
+        found = False
+        failure += 1
+    else:
+        found = True
 
-    pathNoScale.append((roundToInt(x * res), roundToInt(y * res)))
+    pathNoScale = list()
+    pathNoScale.append(start)
+    for node in path:
+        x, y = node.point
+        res = node.edgeLength
+        pathNoScale.append((roundToInt(x * res), roundToInt(y * res)))
+        importGrid[roundToInt(x * res): roundToInt((x + 1) * res),
+        roundToInt(y * res): roundToInt((y + 1) * res)] = 0.4
 
-    importGrid[roundToInt(x * res): roundToInt((x + 1) * res),
-    roundToInt(y * res): roundToInt((y + 1) * res)] = 0.4
+    importGrid[start[0]:start[0] + 5, start[1]:start[1] + 5] = 0.6
+    importGrid[goal[0]:goal[0] + 5, goal[1]:goal[1] + 5] = 0.2
+    pathNoScale.append(goal)
 
-importGrid[start[0]:start[0] + 5, start[1]:start[1] + 5] = 0.6
-importGrid[goal[0]:goal[0] + 5, goal[1]:goal[1] + 5] = 0.2
-pathNoScale.append(goal)
+    total = 0
+    for i in range(len(pathNoScale) - 1):
+        total = total + AllConstants.dist(pathNoScale[i], pathNoScale[i + 1])
+    if not found:
+        total = 0
+    print total
+    sum_ += total
+    # plt.imshow(importGrid[:, ::-1].transpose(), cmap='hot', interpolation='nearest')
+    # plt.show()
+    dir = 'results\world3\path_' + sys.argv[1] + '_' + str(j + 1) + '_' + str(total) + '.png'
+    plt.imsave(dir, importGrid[:, ::-1].transpose())
 
-plt.imshow(importGrid[:, ::-1].transpose(), cmap='hot', interpolation='nearest')
-plt.show()
-
+print ('Avg=' + str(sum_ / (20-failure)))
+print ("Faliure="+str(failure))
 print("END")

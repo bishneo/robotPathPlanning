@@ -109,8 +109,8 @@ def generateRoadMap(sample_x, sample_y, rr, obsKDTree):
 
             if not isCollision(ix, iy, nx, ny, rr, obsKDTree):
                 edge_id.append(inds[ii])
-            else:
-                print "Collision!"
+            #else:
+                #print "Collision!"
 
             if len(edge_id) >= AllConstants.NUM_NEIGHBORS:
                 break

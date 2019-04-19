@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="616e104c-6912-4859-a230-5aa99e922763" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllConstants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FloorPro.png" beforeDir="false" afterPath="$PROJECT_DIR$/FloorPro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jpgtobit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jpgtobit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.py" beforeDir="false" afterPath="$PROJECT_DIR$/Node.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PathPlanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/PathPlanner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/Prm2.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Prm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/Rrt.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Rrt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worlds/World.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/Prm.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Prm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worlds/world1.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,25 +62,25 @@
         <counts>
           <entry key="jpg" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="61" />
-          <entry key="py" value="1922" />
+          <entry key="py" value="2489" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="61" />
-          <entry key="Python" value="1922" />
+          <entry key="Python" value="2489" />
         </counts>
       </usages-collector>
     </session>
@@ -94,11 +90,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PathPlanner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="156">
+              <caret line="145" column="17" lean-forward="true" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
               <folding>
-                <marker date="1555637871675" expanded="true" signature="1464:1467" ph="..." />
-                <marker date="1555637871675" expanded="true" signature="2952:2955" ph="..." />
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1555653030947" expanded="true" signature="1464:1467" ph="..." />
+                <marker date="1555653030947" expanded="true" signature="2952:2955" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/Rrt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="540">
               <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -119,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/Prm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="130">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
               <folding>
                 <element signature="e#82#95#0" expanded="true" />
               </folding>
@@ -140,20 +137,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AllConstants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="-119">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <marker date="1555656135726" expanded="true" signature="973:978" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jpgtobit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="77" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="-45">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -204,14 +204,15 @@
       <find>not</find>
       <find>anim</find>
       <find>pind</find>
+      <find>Collision!</find>
       <find>point</find>
     </findStrings>
     <replaceStrings>
       <replace>id</replace>
       <replace>numSamples</replace>
       <replace>N_NEIGHBORS</replace>
-      <replace>pId</replace>
       <replace>.point[1]</replace>
+      <replace>pId</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -229,14 +230,14 @@
         <option value="$PROJECT_DIR$/pathplans/Prm2.py" />
         <option value="$PROJECT_DIR$/pathplans/rrt_akt.py" />
         <option value="$PROJECT_DIR$/pathplans/Rrt.py" />
-        <option value="$PROJECT_DIR$/PathPlanner.py" />
-        <option value="$PROJECT_DIR$/AllConstants.py" />
         <option value="$PROJECT_DIR$/algorithms/Prm2.py" />
         <option value="$PROJECT_DIR$/Node.py" />
         <option value="$PROJECT_DIR$/algorithms/Rrt.py" />
+        <option value="$PROJECT_DIR$/Jpgtobit.py" />
         <option value="$PROJECT_DIR$/algorithms/Prm.py" />
         <option value="$PROJECT_DIR$/PathPlanner.py" />
-        <option value="$PROJECT_DIR$/Jpgtobit.py" />
+        <option value="$PROJECT_DIR$/PathPlanner.py" />
+        <option value="$PROJECT_DIR$/AllConstants.py" />
       </list>
     </option>
   </component>
@@ -269,6 +270,11 @@
             </path>
             <path>
               <item name="RobotPathPlanning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RobotPathPlanning" type="462c0819:PsiDirectoryNode" />
+              <item name="worlds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RobotPathPlanning" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -298,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rrt">
+  <component name="RunManager" selected="Python.aStar">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="RobotPathPlanning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -552,18 +558,18 @@
     <frame x="-6" y="-6" width="1613" height="883" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49284253" visible="true" weight="0.21559924" />
-      <window_info id="Structure" order="1" sideWeight="0.50715744" side_tool="true" visible="true" weight="0.21559924" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49253732" visible="true" weight="0.21559924" />
+      <window_info id="Structure" order="1" sideWeight="0.5074627" side_tool="true" visible="true" weight="0.21559924" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35665295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35665295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34430727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921812" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32921812" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32921812" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -617,14 +623,9 @@
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithms/Prm.py</url>
-          <line>109</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AllConstants.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="123" />
+          <url>file://$PROJECT_DIR$/PathPlanner.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -733,37 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/Prm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#82#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/Rrt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PathPlanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <marker date="1555637871675" expanded="true" signature="1464:1467" ph="..." />
-            <marker date="1555637871675" expanded="true" signature="2952:2955" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Node.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -774,19 +744,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AllConstants.py">
+    <entry file="file://$PROJECT_DIR$/Jpgtobit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="-45">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jpgtobit.py">
+    <entry file="file://$PROJECT_DIR$/../../../FAI_CS5100/Python2.7/Lib/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="77" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="148">
+          <caret line="2376" column="4" selection-start-line="2376" selection-start-column="4" selection-end-line="2376" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Rrt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/Prm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="e#82#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PathPlanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="145" column="17" lean-forward="true" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1555653030947" expanded="true" signature="1464:1467" ph="..." />
+            <marker date="1555653030947" expanded="true" signature="2952:2955" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AllConstants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <marker date="1555656135726" expanded="true" signature="973:978" ph="..." />
           </folding>
         </state>
       </provider>
