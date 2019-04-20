@@ -1,6 +1,6 @@
 import math
 
-worldImg = 3
+worldImg = 1
 floorImgAdress = 'worlds/world' + worldImg.__str__() + '.jpg'
 RobotRadios = 10
 RESOLUTION = 8
@@ -22,7 +22,7 @@ if worldImg == 4:
     start = ((80, 80), 90)
     goal = ((800, 432), 90)
 
-N_SAMPLE = 600 * 16 / RESOLUTION  # number of sample_points
+N_SAMPLE = 2000 * 16 / RESOLUTION  # number of sample_points
 NUM_NEIGHBORS = 10  # number of edge from one sampled point
 MAX_EDGE_LEN = 10.0  # [m] Maximum edge length
 timeCons = 0.1  ##In seconds

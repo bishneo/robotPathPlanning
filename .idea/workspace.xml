@@ -7,7 +7,166 @@
       <change beforePath="$PROJECT_DIR$/FloorPro.png" beforeDir="false" afterPath="$PROJECT_DIR$/FloorPro.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PathPlanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/PathPlanner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithms/Prm.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/Prm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worlds/world1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_10_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_11_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_12_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_13_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_14_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_15_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_16_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_17_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_18_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_19_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_1_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_20_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_2_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_3_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_4_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_5_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_6_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_7_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_8_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_aStar_9_1657.11688245.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_10_3056.44009924.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_11_3026.19573177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_12_3046.41524581.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_13_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_14_3010.90963371.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_15_3031.91191068.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_16_3037.59481906.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_17_2980.54908712.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_18_3085.86683606.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_19_3055.35118153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_1_3063.07858867.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_20_3073.92771986.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_2_3025.16654431.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_3_3008.27995724.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_4_3032.35840979.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_5_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_6_3098.62808663.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_7_3024.66352949.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_8_3022.6255345.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_prm_9_2946.9945325.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_10_3392.96760363.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_11_3579.47727162.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_12_3427.71276964.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_13_3370.34018663.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_14_3337.20310164.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_15_3464.39906114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_16_3434.34018663.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_17_3373.08535264.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_18_3464.39906114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_19_3464.39906114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_1_3287.26197615.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_20_3327.83051864.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_2_3366.45793564.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_3_3354.34018663.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_4_3357.08535264.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_5_3421.08535264.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_6_3585.77164414.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_7_3329.77164414.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_8_3316.51681014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world1/path_rrt_9_3395.71276964.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_10_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_11_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_12_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_13_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_14_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_15_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_16_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_17_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_18_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_19_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_1_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_20_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_2_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_3_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_4_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_5_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_6_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_7_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_8_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_aStar_9_1109.02047591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_10_1695.6719709.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_11_1670.00981177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_12_1715.13160546.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_13_1676.41063974.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_14_1688.32706212.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_15_1663.90915308.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_16_1676.63033819.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_17_1697.39358668.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_18_1700.71773482.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_19_1653.32513357.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_1_1632.27013054.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_20_1710.6796633.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_2_1694.42385338.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_3_1690.30981088.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_4_1669.52096809.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_5_1678.04643596.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_6_1729.32969551.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_7_1688.73725256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_8_1686.36811371.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_prm_9_1692.97478892.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_10_2255.27868284.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_11_2348.20047236.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_12_2514.02384885.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_13_2220.20047236.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_14_2267.39643185.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_15_2197.57305536.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_16_2380.20047236.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_17_2258.02384885.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_18_2279.51418086.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_19_2136.31822136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_1_2348.20047236.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_20_2249.45530635.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_2_2415.27868284.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_3_2259.63192986.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_4_2251.39643185.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_5_2214.71014035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_6_2278.71014035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_7_2463.27868284.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_8_2459.39643185.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world2/path_rrt_9_2147.63192986.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_10_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_11_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_12_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_13_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_14_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_15_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_16_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_17_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_18_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_19_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_1_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_20_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_2_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_3_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_4_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_5_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_6_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_7_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_8_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_aStar_9_1183.39105243.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_10_2831.05800795.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_11_2994.13621844.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_12_2923.50880144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_13_2803.74429945.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_14_2896.99913345.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_15_2864.99913345.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_16_3120.19509294.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_17_2820.88138444.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_18_2914.94025895.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_19_2841.56767594.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_1_2852.88138444.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_20_2852.88138444.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_2_2856.43059095.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_3_2815.86204846.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_4_2888.43059095.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_5_2841.56767594.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_6_2850.94025895.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_7_2853.68542495.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_8_2857.56767594.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/world3/path_rrt_9_2959.05800795.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,12 +213,16 @@
     <session id="-474843568">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="ReadMe" value="1" />
           <entry key="jpg" value="1" />
           <entry key="png" value="1" />
           <entry key="py" value="5" />
@@ -68,34 +231,36 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="ReadMe" value="685" />
           <entry key="dummy" value="61" />
-          <entry key="py" value="2489" />
+          <entry key="py" value="2695" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="61" />
-          <entry key="Python" value="2489" />
+          <entry key="PLAIN_TEXT" value="746" />
+          <entry key="Python" value="2695" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PathPlanner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="145" column="17" lean-forward="true" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+            <state relative-caret-position="141">
+              <caret line="147" column="38" selection-start-line="147" selection-start-column="38" selection-end-line="147" selection-end-column="38" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <marker date="1555653030947" expanded="true" signature="1464:1467" ph="..." />
-                <marker date="1555653030947" expanded="true" signature="2952:2955" ph="..." />
+                <marker date="1555721049636" expanded="true" signature="1464:1467" ph="..." />
+                <marker date="1555721049636" expanded="true" signature="2952:2955" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,8 +269,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/Rrt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="252">
+              <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -116,11 +281,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/Prm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
-              <folding>
-                <element signature="e#82#95#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -128,7 +290,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="162">
               <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -137,14 +299,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AllConstants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
               <folding>
-                <marker date="1555656135726" expanded="true" signature="973:978" ph="..." />
+                <marker date="1555720567183" expanded="true" signature="974:979" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadMe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -152,7 +323,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jpgtobit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
+            <state relative-caret-position="108">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -193,7 +364,6 @@
       <find>count</find>
       <find>node_id</find>
       <find>plt</find>
-      <find>samples</find>
       <find>16</find>
       <find>Node</find>
       <find>RESOLUTION</find>
@@ -205,6 +375,11 @@
       <find>anim</find>
       <find>pind</find>
       <find>Collision!</find>
+      <find>samples</find>
+      <find>coll</find>
+      <find>round</find>
+      <find>sampl</find>
+      <find>isCollision</find>
       <find>point</find>
     </findStrings>
     <replaceStrings>
@@ -232,12 +407,13 @@
         <option value="$PROJECT_DIR$/pathplans/Rrt.py" />
         <option value="$PROJECT_DIR$/algorithms/Prm2.py" />
         <option value="$PROJECT_DIR$/Node.py" />
-        <option value="$PROJECT_DIR$/algorithms/Rrt.py" />
         <option value="$PROJECT_DIR$/Jpgtobit.py" />
         <option value="$PROJECT_DIR$/algorithms/Prm.py" />
-        <option value="$PROJECT_DIR$/PathPlanner.py" />
-        <option value="$PROJECT_DIR$/PathPlanner.py" />
+        <option value="$PROJECT_DIR$/algorithms/Rrt.py" />
         <option value="$PROJECT_DIR$/AllConstants.py" />
+        <option value="$PROJECT_DIR$/ReadMe" />
+        <option value="$PROJECT_DIR$/PathPlanner.py" />
+        <option value="$PROJECT_DIR$/PathPlanner.py" />
       </list>
     </option>
   </component>
@@ -304,28 +480,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.aStar">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="RobotPathPlanning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.prm">
     <configuration name="aStar" type="PythonConfigurationType" factoryName="Python">
       <module name="RobotPathPlanning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -431,93 +586,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="RobotPathPlanning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="RobotPathPlanning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <module name="RobotPathPlanning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Twisted Trial">
-      <module name="RobotPathPlanning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="RobotPathPlanning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <module name="RobotPathPlanning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.aStar" />
       <item itemvalue="Python.rrt" />
@@ -558,12 +626,12 @@
     <frame x="-6" y="-6" width="1613" height="883" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49253732" visible="true" weight="0.21559924" />
-      <window_info id="Structure" order="1" sideWeight="0.5074627" side_tool="true" visible="true" weight="0.21559924" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48787063" visible="true" weight="0.21559924" />
+      <window_info id="Structure" order="1" sideWeight="0.51212937" side_tool="true" visible="true" weight="0.21559924" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35665295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49108368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34430727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -626,6 +694,11 @@
           <url>file://$PROJECT_DIR$/PathPlanner.py</url>
           <line>123</line>
           <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithms/Prm.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="128" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -694,9 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prm_akt.py" />
     <entry file="file://$PROJECT_DIR$/pathplans/rrt_akt.py" />
-    <entry file="file://$PROJECT_DIR$/worlds/World.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/worlds/World.jpg" />
     <entry file="file://$PROJECT_DIR$/../../../FAI_CS5100/Python2.7/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -707,12 +778,26 @@
     <entry file="file://$PROJECT_DIR$/FloorPro.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/Prm.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1697048701/scipy/spatial/ckdtree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="234">
+          <caret line="334" column="8" selection-start-line="334" selection-start-column="8" selection-end-line="334" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../FAI_CS5100/Python2.7/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="2376" column="4" selection-start-line="2376" selection-start-column="4" selection-end-line="2376" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
-            <element signature="e#82#95#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -727,44 +812,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1697048701/scipy/spatial/ckdtree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="334" column="8" selection-start-line="334" selection-start-column="8" selection-end-line="334" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jpgtobit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../FAI_CS5100/Python2.7/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="2376" column="4" selection-start-line="2376" selection-start-column="4" selection-end-line="2376" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/Rrt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="252">
+          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -773,32 +824,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/Prm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-          <folding>
-            <element signature="e#82#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PathPlanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="145" column="17" lean-forward="true" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1555653030947" expanded="true" signature="1464:1467" ph="..." />
-            <marker date="1555653030947" expanded="true" signature="2952:2955" ph="..." />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AllConstants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
           <folding>
-            <marker date="1555656135726" expanded="true" signature="973:978" ph="..." />
+            <marker date="1555720567183" expanded="true" signature="974:979" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jpgtobit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PathPlanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="147" column="38" selection-start-line="147" selection-start-column="38" selection-end-line="147" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1555721049636" expanded="true" signature="1464:1467" ph="..." />
+            <marker date="1555721049636" expanded="true" signature="2952:2955" ph="..." />
           </folding>
         </state>
       </provider>

@@ -43,47 +43,17 @@ class KDTree:
         return index
 
 
-def prmPlanning(start, goal, obsX, obsY, rr):
+def prmPlanning(start, goal, obsX, obsY, rr, grid):
     obsKDtree = KDTree(np.vstack((obsX, obsY)).T)
 
     sample_x, sample_y = getSamples(start.point, goal.point, rr, obsX, obsY, obsKDtree)
-    road_map = generateRoadMap(sample_x, sample_y, rr, obsKDtree)
+    road_map = generateRoadMap(sample_x, sample_y, rr, obsKDtree, grid)
     path, rx, ry = dijkstraShortestPath(start, goal, road_map, sample_x, sample_y)
 
     return path, rx, ry
 
 
-def isCollision(sx, sy, gx, gy, rr, obsKDTree):
-    x = sx
-    y = sy
-    dx = gx - sx
-    dy = gy - sy
-    yaw = math.atan2(gy - sy, gx - sx)
-    d = math.sqrt(dx ** 2 + dy ** 2)
-
-    if d >= AllConstants.MAX_EDGE_LEN:
-        return True
-
-    D = rr
-    nstep = int(round(d / D))
-
-    for i in range(nstep):
-        idxs, dist = obsKDTree.search(np.array([x, y]).reshape(2, 1))
-        # check for collision
-        if dist[0] <= rr:
-            return True
-        x += D * math.cos(yaw)
-        y += D * math.sin(yaw)
-
-    # check for goal
-    idxs, dist = obsKDTree.search(np.array([gx, gy]).reshape(2, 1))
-    if dist[0] <= rr:
-        return True  # collision
-
-    return False  # OK
-
-
-def generateRoadMap(sample_x, sample_y, rr, obsKDTree):
+def generateRoadMap(sample_x, sample_y, rr, obsKDTree, grid):
     """
     Road map generation
     sample_x: x positions of the sampled points
@@ -107,10 +77,13 @@ def generateRoadMap(sample_x, sample_y, rr, obsKDTree):
             nx = sample_x[inds[ii]]
             ny = sample_y[inds[ii]]
 
-            if not isCollision(ix, iy, nx, ny, rr, obsKDTree):
+            if grid[int(round(nx))][int(round(ny))].value == 0:
                 edge_id.append(inds[ii])
-            #else:
-                #print "Collision!"
+
+            # if not isCollision(ix, iy, nx, ny, rr, obsKDTree):
+            # edge_id.append(inds[ii])
+            # else:
+            # print "Collision!"
 
             if len(edge_id) >= AllConstants.NUM_NEIGHBORS:
                 break
@@ -219,7 +192,7 @@ def prm(start, goal, grid):
 
     robotRadius = 1.5
 
-    path, resX, resY = prmPlanning(start, goal, obsX, obsY, robotRadius)
+    path, resX, resY = prmPlanning(start, goal, obsX, obsY, robotRadius, grid)
 
     assert resX, 'Path not found'
     return path

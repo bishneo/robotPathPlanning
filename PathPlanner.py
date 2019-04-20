@@ -94,16 +94,16 @@ importGrid = np.around(Jpgtobit.imgB_V2 * 1.01, decimals=0)
 # rRadios = AllConstants.RobotRadios
 rRadios = 20
 plt.imshow(importGrid, cmap='hot', interpolation='nearest')
-plt.show()
+#plt.show()
 obsScaleGrid = ObstacleScale(importGrid, rRadios)
 plt.imshow(obsScaleGrid, cmap='hot', interpolation='nearest')
-plt.show()
+#plt.show()
 importGrid = np.copy(obsScaleGrid)
 # sqGrid = gridSquare(importGrid)
 sqGrid = gridSquare(obsScaleGrid)
 # sqGrid = obsScaleGrid
 plt.imshow(sqGrid, cmap='hot', interpolation='nearest')
-plt.show()
+#plt.show()
 """
 if sys.argv[1] == 'aStar':
     for p in range(int(math.log(len(sqGrid), 2)), 0, -1):
@@ -118,7 +118,7 @@ elif sys.argv[1] == 'prm':
 sum_ = 0
 found = False
 failure = 0
-for j in range(20):
+for j in range(1):
     importGrid = np.copy(obsScaleGrid)
     path = doPathPlanning(sqGrid, start, goal, sys.argv[1], AllConstants.RESOLUTION)
     if len(path) < 2:
@@ -145,13 +145,13 @@ for j in range(20):
         total = total + AllConstants.dist(pathNoScale[i], pathNoScale[i + 1])
     if not found:
         total = 0
-    print total
+    print 'Path length =' + str(total)
     sum_ += total
-    # plt.imshow(importGrid[:, ::-1].transpose(), cmap='hot', interpolation='nearest')
-    # plt.show()
-    dir = 'results\world3\path_' + sys.argv[1] + '_' + str(j + 1) + '_' + str(total) + '.png'
-    plt.imsave(dir, importGrid[:, ::-1].transpose())
+    plt.imshow(importGrid[:, ::-1].transpose(), cmap='hot', interpolation='nearest')
+    plt.show()
+    #dir = 'results\misc\path_' + sys.argv[1] + '_' + str(j + 1) + '_' + str(total) + '.png'
+    #plt.imsave(dir, importGrid[:, ::-1].transpose())
 
-print ('Avg=' + str(sum_ / (20-failure)))
-print ("Faliure="+str(failure))
+#print ('Avg=' + str(sum_ / (20 - failure)))
+#print ("Faliure=" + str(failure))
 print("END")
