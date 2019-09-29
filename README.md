@@ -1,4 +1,4 @@
-# robotPathPlanning
+# Analysis of Path Planning Algorithms
 Implementation and comparsion of various path planning algorithms in robotics.
 
 ## Demo:
