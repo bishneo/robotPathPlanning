@@ -1,0 +1,26 @@
+ROBOT PATH PLANNING (PART-1)
+----------------------------
+
+This is Part-1 of the Robot Path planning project for RSS5335. This part covers the three algorithms : Dijkstra, A* and Dynamic Window. Please use the below commands to execute these algorithms.
+
+1.  For executing Dijkstra : Run "Dijkstra.py"
+    For executing A* : Run "Astar.py"
+    For executing Dynamic Window : Run "DWA.py"
+
+2.  For changing the world, please edit the value of "worldImg" inside AllConstants.py.
+    worldImg = 1 (For Maze-like environment)
+    worldImg = 2 (For U-shaped environment)
+    worldImg = 3 (For Narrow passage environment)
+    worldImg = 4 (For blocked environment)
+
+3.  For running the Stage/Player simulation tool:
+	a. Install Player
+	b. Install Stage
+	c. Unzi this zip file and through terminal navigate to the folder
+	d. Run one of the algorithm on one of the maps this will generate the path as well as the floor plan
+	e. Change the starting point within the "simple.world" file line 54 to the starting point mentioned in "AllConstants.py" file. 
+	e. From terminal run player simple.cfg (the world will show up)
+	f. From terminal run python simple.py for the robot to navigate through path toward goal
+
+***** Please contact us should you have any question or concerns regarding the execution of codes or simulation environemnt. 
+	
