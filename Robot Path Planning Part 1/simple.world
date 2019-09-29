@@ -1,0 +1,100 @@
+# simple.world - basic world file example
+# Authors: Richard Vaughan
+# $Id$
+
+include "pioneer.inc"
+include "map.inc"
+include "sick.inc"
+include "camera.inc"
+
+# time to pause (in GUI mode) or quit (in headless mode (-g)) the simulation
+quit_time 3600 # 1 hour of simulated time
+
+paused 1
+
+# spatial resolution of the underlying occupancy grid. Default is 0.02m.
+resolution 0.02
+
+# set the multiple of real time that Stage should try to achieve. Default is 1. 
+# set to 0 to go as fast as possible.
+speedup 1
+
+interval_sim 100
+show_clock 1
+show_clock_interval 2
+#interval_real 10000000
+
+
+
+# configure the GUI window
+window
+(
+  size [ 1000.000 1666.000 ] # in pixels
+  scale 50  # pixels per meter
+  #center [ 0  0]
+  rotate [ 0  0 ]
+  			
+  show_data 1              # 1=on 0=off
+)
+
+# load an environment bitmap
+floorplan
+( 
+	name "cave"
+	size [960 960 40]
+	pose [480 480 0 0]
+	bitmap "FloorPro.png"
+)
+
+
+pioneer2dx
+(		  
+  # can refer to the robot by this name
+  name "r0"
+  pose [ 80 80 0 90.0 ]
+
+  # pioneer2dx's sonars	will be ranger:0 and the laser will be ranger:1
+  sicklaser( pose [ 0 0 0 0 ] )
+  INRobot_camera( pose [9 0 0 0] ) # pose [0 0 0 0] is default
+
+  # demonstrate a plugin controller, implemented in examples/ctrl/wander.cc
+  # you probably should comment this out when using simple.cfg with Player
+  #  ctrl "wander"
+
+  # report error-free position in world coordinates
+  localization "gps"
+  localization_origin [ 0 0 0 0 ]
+)
+
+
+define puck model (
+ size [3 3 8]
+ gripper_return 1
+ gui_move 1
+ gui_nose 0
+ fiducial_return 10
+ obstacle_return 1
+)
+
+puck (name "start" pose [100 760 20 0] color "orange")
+#puck (name "mile0" pose [0 0 6 0] color "green")
+#puck (name "mile1" pose [0 0 6 0] color "green")
+#puck (name "mile2" pose [0 0 6 0] color "green")
+#puck (name "mile3" pose [0 0 6 0] color "green")
+#puck (name "mile4" pose [0 0 6 0] color "green")
+#puck (name "mile5" pose [0 0 6 0] color "green")
+#puck (name "mile6" pose [0 0 6 0] color "green")
+#puck (name "mile7" pose [0 0 6 0] color "green")
+#puck (name "mile8" pose [0 0 6 0] color "green")
+#puck (name "mile9" pose [0 0 6 0] color "green")
+#puck (name "mile10" pose [0 0 6 0] color "green")
+#puck (name "mile11" pose [0 0 6 0] color "green")
+#puck (name "mile12" pose [0 0 6 0] color "green")
+#puck (name "mile13" pose [0 0 6 0] color "green")
+#puck (name "mile14" pose [0 0 6 0] color "green")
+#puck (name "mile15" pose [0 0 6 0] color "green")
+#puck (name "mile16" pose [0 0 6 0] color "green")
+#puck (name "mile17" pose [0 0 6 0] color "green")
+#puck (name "mile18" pose [0 0 6 0] color "green")
+#puck (name "mile19" pose [0 0 6 0] color "green")
+puck (name "goal" pose [600 360 20 0] color "blue")
