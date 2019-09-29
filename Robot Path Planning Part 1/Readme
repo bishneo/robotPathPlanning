@@ -16,7 +16,7 @@ This is Part-1 of the Robot Path planning project for RSS5335. This part covers 
 3.  For running the Stage/Player simulation tool:
 	a. Install Player
 	b. Install Stage
-	c. Unzi this zip file and through terminal navigate to the folder
+	c. Unzip this zip file and through terminal navigate to the folder
 	d. Run one of the algorithm on one of the maps this will generate the path as well as the floor plan
 	e. Change the starting point within the "simple.world" file line 54 to the starting point mentioned in "AllConstants.py" file. 
 	e. From terminal run player simple.cfg (the world will show up)
